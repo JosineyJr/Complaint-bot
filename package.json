@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "axios": "^0.25.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "name": "complaintbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
