@@ -1,23 +1,22 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/FxL5qM0.jpg" alt="Bot logo"></a>
+ <img width=200px height=200px src="https://logosmarcas.net/wp-content/uploads/2020/11/Discord-Logo.png" alt="Bot logo"></a>
 </p>
 
-<h3 align="center">complaintbot</h3>
+<h3 align="center">Complaint-bot</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![Platform](https://img.shields.io/badge/platform-reddit-orange.svg)](https://www.reddit.com/user/Wordbook_Bot)
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/JosineyJr/Complaint-bot.svg)](https://github.com/JosineyJr/Complaint-bot/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/JosineyJr/Complaint-bot.svg)](https://github.com/JosineyJr/Complaint-bot/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
 ---
 
-<p align="center"> 🤖 Few lines describing what your bot does.
+<p align="center"> 🤖 Few lines describing what your it does.
     <br> 
 </p>
 
