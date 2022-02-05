@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://logosmarcas.net/wp-content/uploads/2020/11/Discord-Logo.png" alt="Bot logo"></a>
+ <img width=400px height=200px src="https://logosmarcas.net/wp-content/uploads/2020/11/Discord-Logo.png" alt="Bot logo"></a>
 </p>
 
 <h3 align="center">Complaint-bot</h3>
