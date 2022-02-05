@@ -1,5 +1,5 @@
 require('dotenv').config(); //initialize dotenv
-const { Client, Intents, DMChannel } = require('discord.js');
+const { Client, Intents } = require('discord.js');
 const getCommands = require('./app/commands');
 const mongoConnection = require('./data/mongodb/connection');
 (async () => {
