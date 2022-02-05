@@ -7,7 +7,6 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/JosineyJr/Complaint-bot.svg)](https://github.com/JosineyJr/Complaint-bot/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/JosineyJr/Complaint-bot.svg)](https://github.com/JosineyJr/Complaint-bot/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
