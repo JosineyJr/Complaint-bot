@@ -1,12 +1,14 @@
 const createReclamao = require('../data/mongodb/repositories/createReclamao.respository');
 const getReclamaoModel = require('../data/mongodb/models/reclamao.model');
+const addReclamacaoToReclamao = require('../data/mongodb/repositories/addReclamacaoToReclamao.repository');
 module.exports = async ({ connection }) => {
   const reclamaoModel = await getReclamaoModel({ connection });
 
   const commands = {
-    reclamou: (args) => {
+    reclamou: async (args) => {
       const message = args?.message;
-      const [reclamao] = args.args;
+      const [reclamao, reclamou] = args.args;
+      await addReclamacaoToReclamao({ model: reclamaoModel, reclamou, name: reclamao });
       return message.channel.send(`${reclamao} otario - ${Date.now() - message.createdTimestamp}ms`);
     },
     reclamao: async (args) => {

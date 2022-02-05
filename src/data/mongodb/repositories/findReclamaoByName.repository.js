@@ -9,6 +9,7 @@ module.exports = async ({ model, name }) => {
       {
         $project: {
           name: '$nome',
+          reclamacoes: '$reclamou',
         },
       },
     ])
