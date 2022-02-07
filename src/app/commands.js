@@ -10,8 +10,11 @@ module.exports = async ({ connection }) => {
     reclamou: async (args) => {
       const message = args?.message;
       const [reclamao, reclamou] = args.args;
-      await addReclamacaoToReclamao({ model: reclamaoModel, reclamou, name: reclamao });
-      return message.channel.send(`${reclamao} otario - ${Date.now() - message.createdTimestamp}ms`);
+      const addReclamacao = await addReclamacaoToReclamao({ model: reclamaoModel, reclamou, name: reclamao });
+
+      if (addReclamacao.error) return message.channel.send(`${addReclamacao.error} - ${Date.now() - message.createdTimestamp}ms`);
+
+      return message.channel.send(`Added ${addReclamacao} to ${reclamao} - ${Date.now() - message.createdTimestamp}ms`);
     },
     reclamao: async (args) => {
       const message = args?.message;
@@ -25,11 +28,10 @@ module.exports = async ({ connection }) => {
           }
           return message.channel.send(`reclamao ${nome} created - ${Date.now() - message.createdTimestamp}ms`);
 
-        case '-ranking':
+        case '-r':
           const ranking = await getReclamaoRankig({ model: reclamaoModel });
           const formattedRanking = require('../utils/formatRanking.util')({ ranking });
           return message.channel.send(`${formattedRanking}${Date.now() - message.createdTimestamp}ms`);
-
       }
     },
   };
