@@ -2,6 +2,7 @@ require('dotenv').config(); //initialize dotenv
 const { Client, Intents } = require('discord.js');
 const getCommands = require('./app/commands');
 const mongoConnection = require('./data/mongodb/connection');
+
 (async () => {
   try {
     const connection = await mongoConnection({ uri: process.env.MONGODB_URI });
